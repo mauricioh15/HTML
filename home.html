@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head> 
-    <meta charset="UTF-8">
-    <title>Bienes Raíces Cevallos</title>
-    <link rel="icon" href="logo.jpg" type="image/icon type">
-  </head>
+{% extends'base.html' %}
+
+{% block content %}
   <body>
       <section class="contenedor-hometitulo">
           <h1 class="titulo-principal">Bienes Raíces Cevallos</h1>
@@ -133,6 +129,9 @@ Carlos Alberto Rosales.
 <section class="contenedor-instagram">
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-7340454e-d79d-4f58-a697-0861e7db69c0"></div>
-  </body>
-</html>
 </section>
+  </body>
+{% endfor %}
+{% endblock %}
+</html>
+
