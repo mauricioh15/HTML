@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<head>
-  <!--#Aqui hay que añadir un ad block extend-->
-  <title>Casa Cumbres de Cuscatlán</title>
-</head>
+{% extends 'baseheader.html' %}
+{% block title %}Ejemplo{% endblock %}
+{% block contents %}
 
 <!--Imagen del ejemplo-->
   <h1 class="imagen-casa">Casa en Cumbres de Cuscatlán</h1> <!--#esto varia con el extend-->
@@ -40,4 +38,5 @@
       </div>
     </main>
   </section>
-</body>
+{% endblock %}
+
